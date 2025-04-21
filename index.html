@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bt</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     
+  <style> 
+   * 
+    {
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box;
+    } 
+   .dosis 
+    {
+     font-family: "Dosis", serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+    } 
+   body
+    {
+      display: flex; 
+      overflow-x: hidden;
+      background: #262624;
+      width: 100%; 
+      min-height: 100vh;
+      align-items: center;
+      flex-direction: column;
+    }   
+    span 
+    {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      letter-spacing: 2px;
+      color: darkslategray; 
+      font-size: 25px;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      backdrop-filter: blur(10px);
+      border-radius: 50%;
+      z-index: 10000;
+    }
+    .logo 
+    {
+      width: 100%;
+      height: auto;
+      opacity: 0.7;
+    } 
+    details 
+    { 
+      width: 90%;
+      margin: 15px;
+      background: dimgray;
+    } 
+    details summary 
+    {
+      text-align: center; 
+      font-size: 25px;
+    } 
+    details p 
+    {
+      font-size: 25px;
+      color: darkslategray;
+      text-align: center;
+      padding: 15px;
+      transition: 1.5s;
+    } 
+    hr 
+    {
+      width: 90%;
+      background: dimgray;
+      margin: 15px;
+    }
+    h3 
+   {
+      margin: 15px;
+      font-size: 25px;
+      color: grey;
+      width: 100%;
+      text-align: center;
+      animation: 3s pul;
+      }
+   .logoImg 
+   {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border-radius: 50%;
+      } 
+    .animate 
+    { 
+      width: 100%; 
+      height: 100%;
+      animation: 5s ease-in-out animate;
+    } 
+    details a 
+    {
+     position: relative;
+     width: 100%
+     height: auto; 
+     color: darkslategray;
+     background: dimgray;
+     padding: 15px;
+     text-transform: uppercase;
+     text-decoration: none;
+     letter-spacing: 2px;
+     display: block; 
+     text-align: center;
+     text-decoration: none;
+    }
+  @keyframes pul 
+  {
+   0% 
+      {
+        filter: blur(10px);
+       }
+   100%
+      {
+        filter: blur(0px);
+       }
+  }
+   @keyframes animate
+ {
+   0% 
+   {
+     transform: translateY(-100vh);
+   } 
+   100% 
+   {
+     transform: translateY(0vh);
+   }
+ }
+ 
+  </style>
+</head>
+
+<body class="dosis">
+  <div>
+    <span>BT</span>
+     <img src="c.jpg" class="logo"/>
+     <img src="i.jpg" class="logoImg"/>
+     </div>
+     <hr />
+    <h3>I create high quality websites using</h3>
+   <details class="dosis">
+    <summary>Hobby</summary>
+    <p>Creation of dynamic sites</p>
+    <p>Animation of text and images</p> 
+    <p>Designing a Pleasant User Interface</p>
+    <p>I am currently working on web testing</p>
+   </details>
+   <hr /> 
+   <h3>Adding Interactivity to a Website Using</h3>
+  <details class="dosis">
+    <summary>CV</summary>
+    <p>Hi, my name is Anatoliy</p>
+    <p>I am 36 year old</p>
+    <p>I live in Russia</p>
+    <p>I start my work at driver on railway in 2007</p>
+    <p>I like creative web and frontend developer</p>
+    <p>I like Psychologies and Muai-Thai</p>
+    <p>I like Riding a Bicycle</p>
+  </details>
+  <hr /> 
+  <img src="m.png" class="animate"/>
+    <details>
+    <summary>Stack</summary>
+    <p>NodeJs is the environment in which I develop</p>
+    <p>I work with MongoDB</p>
+    <p>Understanding Working with TS Data Types</p>
+    <p>I prefer to use React</p>
+    <p>I create applications based on WebAPI</p>
+    <p>Understanding WebPack</p>
+    <p>It is possible to create styles for different screen sizes</p>
+    <p>Container image is created via a trusted source in Docker</p>
+    <p>My focus now is on developing authorization plugins</p>
+  </details> 
+  <hr />
+  <h3>I use functions from ES6</h3>
+    <details>
+    <summary>LINKLIST
+    </summary>
+    <a href="https://github.com/ambullis">My github</a>
+    <a href="https://www.instagram.com/btengine/">My instagram</a>
+    <a href="https://t.me/btengine">My Telegram</a>
+    <a href="https://m.vk.com/1x3pcq3">My Vk</a>
+  </details>
+  <hr />
+  <details>
+  <summary>
+    GUIDELIST
+  </summary>
+  <p>Product site</p>
+  <p>Landing site</p> 
+  <p>Corporative site<p>
+  </details>
+  <p>© 2025</p>
+    <script>
+    let opt = {
+      fr: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+       }
+       let clb = (ent, obs) => {
+         ent.forEach((ent) => {
+         ent.target.style.scale = ent.intersectionRatio
+       })
+      }
+     let obs = new IntersectionObserver(clb, opt)
+       for (const target of document.querySelectorAll('p')) {
+       obs.observe(target)
+       }
+  </script>
+</body>
+
+</html>
